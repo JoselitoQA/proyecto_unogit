@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path__arrow_1</name>
+   <tag></tag>
+   <elementGuidId>f840f02e-0ac5-4186-9ea4-dde260821aaf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.row.large-columns-5.medium-columns-4.small-columns-2.row-small.row-full-width.has-shadow.row-box-shadow-1.row-box-shadow-5-hover.slider.row-slider.slider-nav-reveal.slider-nav-outside.slider-nav-push.flickity-enabled.is-draggable > button.flickity-button.flickity-prev-next-button.next > svg.flickity-button-icon > path.arrow</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>2857f196-86d2-42df-903a-755bbfec2198</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z</value>
+      <webElementGuid>53f006cd-c850-416c-b6c1-de1aaae557be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>arrow</value>
+      <webElementGuid>edbe97d1-0414-453b-8a48-3a2b3c7a2495</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>transform</name>
+      <type>Main</type>
+      <value>translate(100, 100) rotate(180) </value>
+      <webElementGuid>fd047d44-a2aa-4223-9e39-e1b96bc6b29e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;row-2143681025&quot;)/div[@class=&quot;col medium-11 small-11 large-12&quot;]/div[@class=&quot;col-inner text-left&quot;]/div[@class=&quot;row large-columns-5 medium-columns-4 small-columns-2 row-small row-full-width has-shadow row-box-shadow-1 row-box-shadow-5-hover slider row-slider slider-nav-reveal slider-nav-outside slider-nav-push flickity-enabled is-draggable&quot;]/button[@class=&quot;flickity-button flickity-prev-next-button next&quot;]/svg[@class=&quot;flickity-button-icon&quot;]/path[@class=&quot;arrow&quot;]</value>
+      <webElementGuid>4064a7a7-0338-44e8-a9c1-297a31588c02</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CONDICIONAL 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45c1af7c-e558-4906-80a4-9995ced4373e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3f137a98-ef76-4ded-b392-6b9dfebf3b1c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>3f137a98-ef76-4ded-b392-6b9dfebf3b1c</id>
+      <masked>false</masked>
+      <name>nombre</name>
+   </variable>
+</TestCaseEntity>
