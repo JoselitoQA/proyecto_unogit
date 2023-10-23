@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="make appointmet" time="29.29" tests="4" failures="0" errors="0">
+   <testsuite name="make appointmet" tests="4" failures="0" errors="0" time="29.29" skipped="0" timestamp="2023-10-20 18:18:28" hostname="macbookpro - localhost" id="Test Suites/all bowsers/make appointmet">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/macbookpro/Katalon Studio/proyecto_uno/Reports/20231020_181826/all bowsers/make appointmet/20231020_181826"/>
+         <property name="logFiles" value="/Users/macbookpro/Katalon Studio/proyecto_uno/Reports/20231020_181826/all bowsers/make appointmet/20231020_181826/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="macbookpro - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="b8cf7daaa76ac02d96ba857d37bf122d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/MakeAppointment/login" time="16.167" classname="Test Cases/MakeAppointment/login" status="PASSED">
+         <system-out><![CDATA[2023-10-20 18:18:28 - [TEST_CASE][PASSED] - Test Cases/MakeAppointment/login: Test Cases/MakeAppointment/login
+
+2023-10-20 18:18:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-20 18:18:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-20 18:18:28 - [MESSAGE][INFO] - User set preference: ['args', '[–remote-allow-origins=]']
+
+2023-10-20 18:18:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-20 18:18:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-20 18:18:30 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-10-20 18:18:41 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-10-20 18:18:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-20 18:18:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-20 18:18:41 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2023-10-20 18:18:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-10-20 18:18:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-10-20 18:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-10-20 18:18:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/input_Username_username'
+
+2023-10-20 18:18:43 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/input_Username_username'
+
+2023-10-20 18:18:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/input_Password_password'
+
+2023-10-20 18:18:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/input_Password_password'
+
+2023-10-20 18:18:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-10-20 18:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MakeAppointment/MAKE APPOINTMENT" time="4.202" classname="Test Cases/MakeAppointment/MAKE APPOINTMENT" status="PASSED">
+         <system-out><![CDATA[2023-10-20 18:18:44 - [TEST_CASE][PASSED] - Test Cases/MakeAppointment/MAKE APPOINTMENT: Test Cases/MakeAppointment/MAKE APPOINTMENT
+
+2023-10-20 18:18:44 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2023-10-20 18:18:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-10-20 18:18:44 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("make appointmet/facility"), 0): Scroll to object 'Object Repository/make appointmet/facility' successfully
+
+2023-10-20 18:18:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-20 18:18:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/make appointmet/facility' successfully
+
+2023-10-20 18:18:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), facility, true): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/make appointmet/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-10-20 18:18:45 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/make appointmet/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-10-20 18:18:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"), date): Text '20/20/2023' is set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'
+
+2023-10-20 18:18:46 - [MESSAGE][PASSED] - Text '20/20/2023' is set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'
+
+2023-10-20 18:18:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/textarea_Comment_comment"), coment): Text 'holi' is set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-10-20 18:18:47 - [MESSAGE][PASSED] - Text 'holi' is set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-10-20 18:18:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-10-20 18:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-10-20 18:18:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("make appointmet/verification"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/make appointmet/verification' are matched.
+
+2023-10-20 18:18:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/make appointmet/verification' are matched.
+
+2023-10-20 18:18:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2023-10-20 18:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MakeAppointment/MAKE APPOINTMENT" time="4.381" classname="Test Cases/MakeAppointment/MAKE APPOINTMENT" status="PASSED">
+         <system-out><![CDATA[2023-10-20 18:18:48 - [TEST_CASE][PASSED] - Test Cases/MakeAppointment/MAKE APPOINTMENT: Test Cases/MakeAppointment/MAKE APPOINTMENT
+
+2023-10-20 18:18:48 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2023-10-20 18:18:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-10-20 18:18:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("make appointmet/facility"), 0): Scroll to object 'Object Repository/make appointmet/facility' successfully
+
+2023-10-20 18:18:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-20 18:18:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/make appointmet/facility' successfully
+
+2023-10-20 18:18:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), facility, true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/make appointmet/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-10-20 18:18:50 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/make appointmet/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-10-20 18:18:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"), date): Text '01/02/2024' is set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'
+
+2023-10-20 18:18:50 - [MESSAGE][PASSED] - Text '01/02/2024' is set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'
+
+2023-10-20 18:18:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/textarea_Comment_comment"), coment): Text 'hello' is set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-10-20 18:18:51 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-10-20 18:18:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-10-20 18:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-10-20 18:18:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("make appointmet/verification"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/make appointmet/verification' are matched.
+
+2023-10-20 18:18:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/make appointmet/verification' are matched.
+
+2023-10-20 18:18:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2023-10-20 18:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MakeAppointment/MAKE APPOINTMENT" time="4.203" classname="Test Cases/MakeAppointment/MAKE APPOINTMENT" status="PASSED">
+         <system-out><![CDATA[2023-10-20 18:18:53 - [TEST_CASE][PASSED] - Test Cases/MakeAppointment/MAKE APPOINTMENT: Test Cases/MakeAppointment/MAKE APPOINTMENT
+
+2023-10-20 18:18:53 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2023-10-20 18:18:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-10-20 18:18:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("make appointmet/facility"), 0): Scroll to object 'Object Repository/make appointmet/facility' successfully
+
+2023-10-20 18:18:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-20 18:18:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/make appointmet/facility' successfully
+
+2023-10-20 18:18:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), facility, true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/make appointmet/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-10-20 18:18:54 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/make appointmet/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-10-20 18:18:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"), date): Text '02/02/2025' is set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'
+
+2023-10-20 18:18:55 - [MESSAGE][PASSED] - Text '02/02/2025' is set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'
+
+2023-10-20 18:18:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/textarea_Comment_comment"), coment): Text 'hi' is set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-10-20 18:18:55 - [MESSAGE][PASSED] - Text 'hi' is set on object 'Object Repository/make appointmet/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-10-20 18:18:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-10-20 18:18:56 - [MESSAGE][PASSED] - Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-10-20 18:18:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("make appointmet/verification"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/make appointmet/verification' are matched.
+
+2023-10-20 18:18:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/make appointmet/verification' are matched.
+
+2023-10-20 18:18:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/make appointmet/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2023-10-20 18:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/make appointmet/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-20 18:18:28 - [TEST_SUITE][PASSED] - make appointmet: Test Cases/MakeAppointment/MAKE APPOINTMENT]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

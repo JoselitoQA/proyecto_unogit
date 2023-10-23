@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+completo_hp,,,,2023-10-19 22:06:27,2023-10-19 22:06:35,7.824s,FAILED
+,,,,,,,
+Test Cases/RetoHp/borrar_hp,,,,2023-10-19 22:06:28,2023-10-19 22:06:31,3.314s,FAILED
+"openBrowser("""")",,,,2023-10-19 22:06:28,2023-10-19 22:06:31,3.001s,FAILED
+,,,,,,,
+Test Cases/new add,,,,2023-10-19 22:06:31,2023-10-19 22:06:31,0.254s,FAILED
+"click(findTestObject(""Object Repository/new add/Page_DEMOQA/button_Add""))",,,,2023-10-19 22:06:31,2023-10-19 22:06:31,0.102s,FAILED
+,,,,,,,
+Test Cases/new add,,,,2023-10-19 22:06:32,2023-10-19 22:06:32,0.112s,FAILED
+"click(findTestObject(""Object Repository/new add/Page_DEMOQA/button_Add""))",,,,2023-10-19 22:06:32,2023-10-19 22:06:32,0.089s,FAILED
+,,,,,,,
+Test Cases/new add,,,,2023-10-19 22:06:32,2023-10-19 22:06:32,0.063s,FAILED
+"click(findTestObject(""Object Repository/new add/Page_DEMOQA/button_Add""))",,,,2023-10-19 22:06:32,2023-10-19 22:06:32,0.046s,FAILED
+,,,,,,,
+Test Cases/new add,,,,2023-10-19 22:06:32,2023-10-19 22:06:32,0.052s,FAILED
+"click(findTestObject(""Object Repository/new add/Page_DEMOQA/button_Add""))",,,,2023-10-19 22:06:32,2023-10-19 22:06:32,0.040s,FAILED
+,,,,,,,
+Test Cases/new add,,,,2023-10-19 22:06:32,2023-10-19 22:06:32,0.049s,FAILED
+"click(findTestObject(""Object Repository/new add/Page_DEMOQA/button_Add""))",,,,2023-10-19 22:06:32,2023-10-19 22:06:32,0.039s,FAILED
+,,,,,,,
+Test Cases/new add,,,,2023-10-19 22:06:32,2023-10-19 22:06:32,0.050s,FAILED
+"click(findTestObject(""Object Repository/new add/Page_DEMOQA/button_Add""))",,,,2023-10-19 22:06:32,2023-10-19 22:06:32,0.037s,FAILED
+,,,,,,,
+Test Cases/RetoHp/reto_hp,,,,2023-10-19 22:06:32,2023-10-19 22:06:35,3.285s,FAILED
+delay(3),,,,2023-10-19 22:06:32,2023-10-19 22:06:35,3.090s,PASSED
+"click(findTestObject(""reto_hp/edit_0""))",,,,2023-10-19 22:06:35,2023-10-19 22:06:35,0.041s,FAILED

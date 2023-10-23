@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/MakeAppointment/login","testCaseId":"Test Cases/MakeAppointment/login","iterationVariableName":""}
+{"testCaseName":"Test Cases/MakeAppointment/MAKE APPOINTMENT","testCaseId":"Test Cases/MakeAppointment/MAKE APPOINTMENT","iterationVariableName":"","bindedValues":{"date":"\u002720/20/2023\u0027","coment":"\u0027holi\u0027","facility":"\u0027Tokyo CURA Healthcare Center\u0027"}}
+{"testCaseName":"Test Cases/MakeAppointment/MAKE APPOINTMENT","testCaseId":"Test Cases/MakeAppointment/MAKE APPOINTMENT","iterationVariableName":"","bindedValues":{"date":"\u002701/02/2024\u0027","coment":"\u0027hello\u0027","facility":"\u0027Hongkong CURA Healthcare Center\u0027"}}
+{"testCaseName":"Test Cases/MakeAppointment/MAKE APPOINTMENT","testCaseId":"Test Cases/MakeAppointment/MAKE APPOINTMENT","iterationVariableName":"","bindedValues":{"date":"\u002702/02/2025\u0027","coment":"\u0027hi\u0027","facility":"\u0027Seoul CURA Healthcare Center\u0027"}}

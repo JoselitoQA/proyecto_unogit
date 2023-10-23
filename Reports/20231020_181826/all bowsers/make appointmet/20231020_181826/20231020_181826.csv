@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+make appointmet,Chrome 118.0.0.0,,,2023-10-20 18:18:28,2023-10-20 18:18:57,29.290s,PASSED
+,,,,,,,
+Test Cases/MakeAppointment/login,Chrome 118.0.0.0,,,2023-10-20 18:18:28,2023-10-20 18:18:44,16.167s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-20 18:18:28,2023-10-20 18:18:30,1.934s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 118.0.0.0,,,2023-10-20 18:18:30,2023-10-20 18:18:41,10.925s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2023-10-20 18:18:41,2023-10-20 18:18:41,0.265s,PASSED
+waitForPageLoad(20),Chrome 118.0.0.0,,,2023-10-20 18:18:41,2023-10-20 18:18:41,0.077s,PASSED
+"click(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 118.0.0.0,,,2023-10-20 18:18:41,2023-10-20 18:18:42,0.744s,PASSED
+"setText(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 118.0.0.0,,,2023-10-20 18:18:42,2023-10-20 18:18:43,0.892s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 118.0.0.0,,,2023-10-20 18:18:43,2023-10-20 18:18:43,0.365s,PASSED
+"click(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/button_Login""))",Chrome 118.0.0.0,,,2023-10-20 18:18:43,2023-10-20 18:18:44,0.697s,PASSED
+,,,,,,,
+Test Cases/MakeAppointment/MAKE APPOINTMENT,Chrome 118.0.0.0,,,2023-10-20 18:18:44,2023-10-20 18:18:48,4.202s,PASSED
+waitForPageLoad(20),Chrome 118.0.0.0,,,2023-10-20 18:18:44,2023-10-20 18:18:44,0.013s,PASSED
+"scrollToElement(findTestObject(""make appointmet/facility""), 0)",Chrome 118.0.0.0,,,2023-10-20 18:18:44,2023-10-20 18:18:45,0.298s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), facility, true)",Chrome 118.0.0.0,,,2023-10-20 18:18:45,2023-10-20 18:18:45,0.809s,PASSED
+"setText(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""), date)",Chrome 118.0.0.0,,,2023-10-20 18:18:45,2023-10-20 18:18:46,0.633s,PASSED
+"setText(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/textarea_Comment_comment""), coment)",Chrome 118.0.0.0,,,2023-10-20 18:18:46,2023-10-20 18:18:47,0.784s,PASSED
+"click(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 118.0.0.0,,,2023-10-20 18:18:47,2023-10-20 18:18:47,0.476s,PASSED
+"verifyElementText(findTestObject(""make appointmet/verification""), ""Appointment Confirmation"")",Chrome 118.0.0.0,,,2023-10-20 18:18:47,2023-10-20 18:18:48,0.514s,PASSED
+"click(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 118.0.0.0,,,2023-10-20 18:18:48,2023-10-20 18:18:48,0.487s,PASSED
+,,,,,,,
+Test Cases/MakeAppointment/MAKE APPOINTMENT,Chrome 118.0.0.0,,,2023-10-20 18:18:48,2023-10-20 18:18:53,4.381s,PASSED
+waitForPageLoad(20),Chrome 118.0.0.0,,,2023-10-20 18:18:48,2023-10-20 18:18:48,0.012s,PASSED
+"scrollToElement(findTestObject(""make appointmet/facility""), 0)",Chrome 118.0.0.0,,,2023-10-20 18:18:48,2023-10-20 18:18:49,0.280s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), facility, true)",Chrome 118.0.0.0,,,2023-10-20 18:18:49,2023-10-20 18:18:50,1.032s,PASSED
+"setText(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""), date)",Chrome 118.0.0.0,,,2023-10-20 18:18:50,2023-10-20 18:18:50,0.608s,PASSED
+"setText(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/textarea_Comment_comment""), coment)",Chrome 118.0.0.0,,,2023-10-20 18:18:50,2023-10-20 18:18:51,0.771s,PASSED
+"click(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 118.0.0.0,,,2023-10-20 18:18:51,2023-10-20 18:18:52,0.497s,PASSED
+"verifyElementText(findTestObject(""make appointmet/verification""), ""Appointment Confirmation"")",Chrome 118.0.0.0,,,2023-10-20 18:18:52,2023-10-20 18:18:52,0.502s,PASSED
+"click(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 118.0.0.0,,,2023-10-20 18:18:52,2023-10-20 18:18:53,0.670s,PASSED
+,,,,,,,
+Test Cases/MakeAppointment/MAKE APPOINTMENT,Chrome 118.0.0.0,,,2023-10-20 18:18:53,2023-10-20 18:18:57,4.203s,PASSED
+waitForPageLoad(20),Chrome 118.0.0.0,,,2023-10-20 18:18:53,2023-10-20 18:18:53,0.013s,PASSED
+"scrollToElement(findTestObject(""make appointmet/facility""), 0)",Chrome 118.0.0.0,,,2023-10-20 18:18:53,2023-10-20 18:18:53,0.271s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), facility, true)",Chrome 118.0.0.0,,,2023-10-20 18:18:53,2023-10-20 18:18:54,1.049s,PASSED
+"setText(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""), date)",Chrome 118.0.0.0,,,2023-10-20 18:18:54,2023-10-20 18:18:55,0.609s,PASSED
+"setText(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/textarea_Comment_comment""), coment)",Chrome 118.0.0.0,,,2023-10-20 18:18:55,2023-10-20 18:18:55,0.757s,PASSED
+"click(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 118.0.0.0,,,2023-10-20 18:18:55,2023-10-20 18:18:56,0.572s,PASSED
+"verifyElementText(findTestObject(""make appointmet/verification""), ""Appointment Confirmation"")",Chrome 118.0.0.0,,,2023-10-20 18:18:56,2023-10-20 18:18:56,0.389s,PASSED
+"click(findTestObject(""Object Repository/make appointmet/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 118.0.0.0,,,2023-10-20 18:18:56,2023-10-20 18:18:57,0.531s,PASSED

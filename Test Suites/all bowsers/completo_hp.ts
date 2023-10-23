@@ -19,58 +19,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>530f34f7-8620-410d-90c8-30680361652f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/new add</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>58f1a95b-9612-4d72-a825-eaffe1860c23</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/reto_hp/datos_hp</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId>58f1a95b-9612-4d72-a825-eaffe1860c23</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>nombre</value>
-         <variableId>45064e9b-8790-4e27-9b98-b52abb2ae62e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>58f1a95b-9612-4d72-a825-eaffe1860c23</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>apellido</value>
-         <variableId>c150de6a-dc1a-4b59-b9c6-f50ab9203f81</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>58f1a95b-9612-4d72-a825-eaffe1860c23</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>email</value>
-         <variableId>4ecb8dae-955b-4853-921f-0397385c990a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>58f1a95b-9612-4d72-a825-eaffe1860c23</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>edad</value>
-         <variableId>b7d8188b-75c7-43c4-8cb5-19a82cc4202a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>58f1a95b-9612-4d72-a825-eaffe1860c23</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>salario</value>
-         <variableId>1213e819-bbf0-4fd3-a024-2bc13ffccec9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>58f1a95b-9612-4d72-a825-eaffe1860c23</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>departamento</value>
-         <variableId>b7140893-1cf3-4ddb-8eff-226b5d13595a</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>dfc6627f-abeb-4e8e-9dd3-97717a37c07e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -114,7 +62,14 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>48681889-f31d-4fe3-8a65-ea58bd72a300</guid>
+      <guid>b24e8ad3-58f5-4332-9bc4-cf1344ce6ced</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/RetoHp/borall_noscroll</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e5f9564-cd4c-42b9-bb9a-693447af517a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/RetoHp/borrall</testCaseId>

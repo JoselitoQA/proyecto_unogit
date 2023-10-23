@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+make appointmet,,,,2023-10-19 21:57:52,2023-10-19 21:57:56,4.044s,FAILED
+,,,,,,,
+Test Cases/MakeAppointment/login,,,,2023-10-19 21:57:53,2023-10-19 21:57:56,3.314s,FAILED
+"openBrowser("""")",,,,2023-10-19 21:57:53,2023-10-19 21:57:56,2.983s,FAILED
+,,,,,,,
+Test Cases/MakeAppointment/MAKE APPOINTMENT,,,,2023-10-19 21:57:56,2023-10-19 21:57:56,0.212s,FAILED
+waitForPageLoad(20),,,,2023-10-19 21:57:56,2023-10-19 21:57:56,0.056s,FAILED
+,,,,,,,
+Test Cases/MakeAppointment/MAKE APPOINTMENT,,,,2023-10-19 21:57:56,2023-10-19 21:57:56,0.030s,FAILED
+waitForPageLoad(20),,,,2023-10-19 21:57:56,2023-10-19 21:57:56,0.013s,FAILED
+,,,,,,,
+Test Cases/MakeAppointment/MAKE APPOINTMENT,,,,2023-10-19 21:57:56,2023-10-19 21:57:56,0.025s,FAILED
+waitForPageLoad(20),,,,2023-10-19 21:57:56,2023-10-19 21:57:56,0.011s,FAILED

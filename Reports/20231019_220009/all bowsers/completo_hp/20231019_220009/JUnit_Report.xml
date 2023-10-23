@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="completo_hp" time="66.005" tests="9" failures="0" errors="0">
+   <testsuite name="completo_hp" tests="9" failures="0" errors="0" time="66.005" skipped="0" timestamp="2023-10-19 22:00:11" hostname="macbookpro - localhost" id="Test Suites/all bowsers/completo_hp">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/macbookpro/Katalon Studio/proyecto_uno/Reports/20231019_220009/all bowsers/completo_hp/20231019_220009"/>
+         <property name="logFiles" value="/Users/macbookpro/Katalon Studio/proyecto_uno/Reports/20231019_220009/all bowsers/completo_hp/20231019_220009/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="macbookpro - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="4fb5ee6922f311818054bb21b63523d5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/RetoHp/borrar_hp" time="13.89" classname="Test Cases/RetoHp/borrar_hp" status="PASSED">
+         <system-out><![CDATA[2023-10-19 22:00:11 - [TEST_CASE][PASSED] - Test Cases/RetoHp/borrar_hp: Test Cases/RetoHp/borrar_hp
+
+2023-10-19 22:00:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-19 22:00:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-19 22:00:11 - [MESSAGE][INFO] - User set preference: ['args', '[–remote-allow-origins=]']
+
+2023-10-19 22:00:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-19 22:00:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-19 22:00:13 - [TEST_STEP][PASSED] - navigateToUrl("https://demoqa.com/webtables"): Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-10-19 22:00:21 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/webtables' successfully
+
+2023-10-19 22:00:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-10-19 22:00:21 - [MESSAGE][PASSED] - Current window maximized
+
+2023-10-19 22:00:21 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2023-10-19 22:00:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-10-19 22:00:21 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/borrar_1")): Object: 'Object Repository/reto_hp/borrar_1' is clicked on
+
+2023-10-19 22:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/borrar_1' is clicked on
+
+2023-10-19 22:00:22 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/borrar_2")): Object: 'Object Repository/reto_hp/borrar_2' is clicked on
+
+2023-10-19 22:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/borrar_2' is clicked on
+
+2023-10-19 22:00:22 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/borrar_3")): Object: 'Object Repository/reto_hp/borrar_3' is clicked on
+
+2023-10-19 22:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/borrar_3' is clicked on
+
+2023-10-19 22:00:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-10-19 22:00:25 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/new add" time="4.713" classname="Test Cases/new add" status="PASSED">
+         <system-out><![CDATA[2023-10-19 22:00:25 - [TEST_CASE][PASSED] - Test Cases/new add: Test Cases/new add
+
+2023-10-19 22:00:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/new add/Page_DEMOQA/button_Add")): Object: 'Object Repository/new add/Page_DEMOQA/button_Add' is clicked on
+
+2023-10-19 22:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/new add/Page_DEMOQA/button_Add' is clicked on
+
+2023-10-19 22:00:25 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/first_name"), nombre): Text 'elma marcela' is set on object 'Object Repository/reto_hp/first_name'
+
+2023-10-19 22:00:26 - [MESSAGE][PASSED] - Text 'elma marcela' is set on object 'Object Repository/reto_hp/first_name'
+
+2023-10-19 22:00:26 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/last_name"), apellido): Text 'rico' is set on object 'Object Repository/reto_hp/last_name'
+
+2023-10-19 22:00:27 - [MESSAGE][PASSED] - Text 'rico' is set on object 'Object Repository/reto_hp/last_name'
+
+2023-10-19 22:00:27 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/email"), email): Text 'elma@gmail.com' is set on object 'Object Repository/reto_hp/email'
+
+2023-10-19 22:00:28 - [MESSAGE][PASSED] - Text 'elma@gmail.com' is set on object 'Object Repository/reto_hp/email'
+
+2023-10-19 22:00:28 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/age"), edad): Text '20' is set on object 'Object Repository/reto_hp/age'
+
+2023-10-19 22:00:28 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/reto_hp/age'
+
+2023-10-19 22:00:28 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/salary"), salario): Text '200' is set on object 'Object Repository/reto_hp/salary'
+
+2023-10-19 22:00:29 - [MESSAGE][PASSED] - Text '200' is set on object 'Object Repository/reto_hp/salary'
+
+2023-10-19 22:00:29 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/deparment"), departamento): Text 'fiestas' is set on object 'Object Repository/reto_hp/deparment'
+
+2023-10-19 22:00:29 - [MESSAGE][PASSED] - Text 'fiestas' is set on object 'Object Repository/reto_hp/deparment'
+
+2023-10-19 22:00:29 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/submit"), STOP_ON_FAILURE): Object: 'Object Repository/reto_hp/submit' is clicked on
+
+2023-10-19 22:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/new add" time="4.464" classname="Test Cases/new add" status="PASSED">
+         <system-out><![CDATA[2023-10-19 22:00:30 - [TEST_CASE][PASSED] - Test Cases/new add: Test Cases/new add
+
+2023-10-19 22:00:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/new add/Page_DEMOQA/button_Add")): Object: 'Object Repository/new add/Page_DEMOQA/button_Add' is clicked on
+
+2023-10-19 22:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/new add/Page_DEMOQA/button_Add' is clicked on
+
+2023-10-19 22:00:30 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/first_name"), nombre): Text 'siliapretel' is set on object 'Object Repository/reto_hp/first_name'
+
+2023-10-19 22:00:31 - [MESSAGE][PASSED] - Text 'siliapretel' is set on object 'Object Repository/reto_hp/first_name'
+
+2023-10-19 22:00:31 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/last_name"), apellido): Text 'gallo' is set on object 'Object Repository/reto_hp/last_name'
+
+2023-10-19 22:00:32 - [MESSAGE][PASSED] - Text 'gallo' is set on object 'Object Repository/reto_hp/last_name'
+
+2023-10-19 22:00:32 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/email"), email): Text 'silia@gmail.com' is set on object 'Object Repository/reto_hp/email'
+
+2023-10-19 22:00:32 - [MESSAGE][PASSED] - Text 'silia@gmail.com' is set on object 'Object Repository/reto_hp/email'
+
+2023-10-19 22:00:32 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/age"), edad): Text '30' is set on object 'Object Repository/reto_hp/age'
+
+2023-10-19 22:00:33 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/reto_hp/age'
+
+2023-10-19 22:00:33 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/salary"), salario): Text '300' is set on object 'Object Repository/reto_hp/salary'
+
+2023-10-19 22:00:33 - [MESSAGE][PASSED] - Text '300' is set on object 'Object Repository/reto_hp/salary'
+
+2023-10-19 22:00:33 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/deparment"), departamento): Text 'farras' is set on object 'Object Repository/reto_hp/deparment'
+
+2023-10-19 22:00:34 - [MESSAGE][PASSED] - Text 'farras' is set on object 'Object Repository/reto_hp/deparment'
+
+2023-10-19 22:00:34 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/submit"), STOP_ON_FAILURE): Object: 'Object Repository/reto_hp/submit' is clicked on
+
+2023-10-19 22:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/new add" time="4.473" classname="Test Cases/new add" status="PASSED">
+         <system-out><![CDATA[2023-10-19 22:00:34 - [TEST_CASE][PASSED] - Test Cases/new add: Test Cases/new add
+
+2023-10-19 22:00:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/new add/Page_DEMOQA/button_Add")): Object: 'Object Repository/new add/Page_DEMOQA/button_Add' is clicked on
+
+2023-10-19 22:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/new add/Page_DEMOQA/button_Add' is clicked on
+
+2023-10-19 22:00:35 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/first_name"), nombre): Text 'alba cu' is set on object 'Object Repository/reto_hp/first_name'
+
+2023-10-19 22:00:36 - [MESSAGE][PASSED] - Text 'alba cu' is set on object 'Object Repository/reto_hp/first_name'
+
+2023-10-19 22:00:36 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/last_name"), apellido): Text 'lozano' is set on object 'Object Repository/reto_hp/last_name'
+
+2023-10-19 22:00:36 - [MESSAGE][PASSED] - Text 'lozano' is set on object 'Object Repository/reto_hp/last_name'
+
+2023-10-19 22:00:36 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/email"), email): Text 'alba@gmail.com' is set on object 'Object Repository/reto_hp/email'
+
+2023-10-19 22:00:37 - [MESSAGE][PASSED] - Text 'alba@gmail.com' is set on object 'Object Repository/reto_hp/email'
+
+2023-10-19 22:00:37 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/age"), edad): Text '40' is set on object 'Object Repository/reto_hp/age'
+
+2023-10-19 22:00:37 - [MESSAGE][PASSED] - Text '40' is set on object 'Object Repository/reto_hp/age'
+
+2023-10-19 22:00:37 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/salary"), salario): Text '400' is set on object 'Object Repository/reto_hp/salary'
+
+2023-10-19 22:00:38 - [MESSAGE][PASSED] - Text '400' is set on object 'Object Repository/reto_hp/salary'
+
+2023-10-19 22:00:38 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/deparment"), departamento): Text 'chorros' is set on object 'Object Repository/reto_hp/deparment'
+
+2023-10-19 22:00:38 - [MESSAGE][PASSED] - Text 'chorros' is set on object 'Object Repository/reto_hp/deparment'
+
+2023-10-19 22:00:38 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/submit"), STOP_ON_FAILURE): Object: 'Object Repository/reto_hp/submit' is clicked on
+
+2023-10-19 22:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/new add" time="4.55" classname="Test Cases/new add" status="PASSED">
+         <system-out><![CDATA[2023-10-19 22:00:39 - [TEST_CASE][PASSED] - Test Cases/new add: Test Cases/new add
+
+2023-10-19 22:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/new add/Page_DEMOQA/button_Add")): Object: 'Object Repository/new add/Page_DEMOQA/button_Add' is clicked on
+
+2023-10-19 22:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/new add/Page_DEMOQA/button_Add' is clicked on
+
+2023-10-19 22:00:39 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/first_name"), nombre): Text 'abuela' is set on object 'Object Repository/reto_hp/first_name'
+
+2023-10-19 22:00:40 - [MESSAGE][PASSED] - Text 'abuela' is set on object 'Object Repository/reto_hp/first_name'
+
+2023-10-19 22:00:40 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/last_name"), apellido): Text 'dora' is set on object 'Object Repository/reto_hp/last_name'
+
+2023-10-19 22:00:41 - [MESSAGE][PASSED] - Text 'dora' is set on object 'Object Repository/reto_hp/last_name'
+
+2023-10-19 22:00:41 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/email"), email): Text 'abuela@gmail.com' is set on object 'Object Repository/reto_hp/email'
+
+2023-10-19 22:00:41 - [MESSAGE][PASSED] - Text 'abuela@gmail.com' is set on object 'Object Repository/reto_hp/email'
+
+2023-10-19 22:00:41 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/age"), edad): Text '50' is set on object 'Object Repository/reto_hp/age'
+
+2023-10-19 22:00:42 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/reto_hp/age'
+
+2023-10-19 22:00:42 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/salary"), salario): Text '500' is set on object 'Object Repository/reto_hp/salary'
+
+2023-10-19 22:00:42 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/reto_hp/salary'
+
+2023-10-19 22:00:42 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/deparment"), departamento): Text 'polas' is set on object 'Object Repository/reto_hp/deparment'
+
+2023-10-19 22:00:43 - [MESSAGE][PASSED] - Text 'polas' is set on object 'Object Repository/reto_hp/deparment'
+
+2023-10-19 22:00:43 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/submit"), STOP_ON_FAILURE): Object: 'Object Repository/reto_hp/submit' is clicked on
+
+2023-10-19 22:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/new add" time="4.506" classname="Test Cases/new add" status="PASSED">
+         <system-out><![CDATA[2023-10-19 22:00:43 - [TEST_CASE][PASSED] - Test Cases/new add: Test Cases/new add
+
+2023-10-19 22:00:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/new add/Page_DEMOQA/button_Add")): Object: 'Object Repository/new add/Page_DEMOQA/button_Add' is clicked on
+
+2023-10-19 22:00:44 - [MESSAGE][PASSED] - Object: 'Object Repository/new add/Page_DEMOQA/button_Add' is clicked on
+
+2023-10-19 22:00:44 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/first_name"), nombre): Text 'hugo' is set on object 'Object Repository/reto_hp/first_name'
+
+2023-10-19 22:00:45 - [MESSAGE][PASSED] - Text 'hugo' is set on object 'Object Repository/reto_hp/first_name'
+
+2023-10-19 22:00:45 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/last_name"), apellido): Text 'norrea' is set on object 'Object Repository/reto_hp/last_name'
+
+2023-10-19 22:00:45 - [MESSAGE][PASSED] - Text 'norrea' is set on object 'Object Repository/reto_hp/last_name'
+
+2023-10-19 22:00:45 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/email"), email): Text 'hugo@gmail.com' is set on object 'Object Repository/reto_hp/email'
+
+2023-10-19 22:00:46 - [MESSAGE][PASSED] - Text 'hugo@gmail.com' is set on object 'Object Repository/reto_hp/email'
+
+2023-10-19 22:00:46 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/age"), edad): Text '60' is set on object 'Object Repository/reto_hp/age'
+
+2023-10-19 22:00:46 - [MESSAGE][PASSED] - Text '60' is set on object 'Object Repository/reto_hp/age'
+
+2023-10-19 22:00:46 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/salary"), salario): Text '600' is set on object 'Object Repository/reto_hp/salary'
+
+2023-10-19 22:00:47 - [MESSAGE][PASSED] - Text '600' is set on object 'Object Repository/reto_hp/salary'
+
+2023-10-19 22:00:47 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/deparment"), departamento): Text 'vinos' is set on object 'Object Repository/reto_hp/deparment'
+
+2023-10-19 22:00:48 - [MESSAGE][PASSED] - Text 'vinos' is set on object 'Object Repository/reto_hp/deparment'
+
+2023-10-19 22:00:48 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/submit"), STOP_ON_FAILURE): Object: 'Object Repository/reto_hp/submit' is clicked on
+
+2023-10-19 22:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/new add" time="4.502" classname="Test Cases/new add" status="PASSED">
+         <system-out><![CDATA[2023-10-19 22:00:48 - [TEST_CASE][PASSED] - Test Cases/new add: Test Cases/new add
+
+2023-10-19 22:00:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/new add/Page_DEMOQA/button_Add")): Object: 'Object Repository/new add/Page_DEMOQA/button_Add' is clicked on
+
+2023-10-19 22:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/new add/Page_DEMOQA/button_Add' is clicked on
+
+2023-10-19 22:00:49 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/first_name"), nombre): Text 'ali ' is set on object 'Object Repository/reto_hp/first_name'
+
+2023-10-19 22:00:49 - [MESSAGE][PASSED] - Text 'ali ' is set on object 'Object Repository/reto_hp/first_name'
+
+2023-10-19 22:00:49 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/last_name"), apellido): Text 'cate' is set on object 'Object Repository/reto_hp/last_name'
+
+2023-10-19 22:00:50 - [MESSAGE][PASSED] - Text 'cate' is set on object 'Object Repository/reto_hp/last_name'
+
+2023-10-19 22:00:50 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/email"), email): Text 'ali@gmail.com' is set on object 'Object Repository/reto_hp/email'
+
+2023-10-19 22:00:50 - [MESSAGE][PASSED] - Text 'ali@gmail.com' is set on object 'Object Repository/reto_hp/email'
+
+2023-10-19 22:00:50 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/age"), edad): Text '70' is set on object 'Object Repository/reto_hp/age'
+
+2023-10-19 22:00:51 - [MESSAGE][PASSED] - Text '70' is set on object 'Object Repository/reto_hp/age'
+
+2023-10-19 22:00:51 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/salary"), salario): Text '700' is set on object 'Object Repository/reto_hp/salary'
+
+2023-10-19 22:00:52 - [MESSAGE][PASSED] - Text '700' is set on object 'Object Repository/reto_hp/salary'
+
+2023-10-19 22:00:52 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/deparment"), departamento): Text 'drogas' is set on object 'Object Repository/reto_hp/deparment'
+
+2023-10-19 22:00:52 - [MESSAGE][PASSED] - Text 'drogas' is set on object 'Object Repository/reto_hp/deparment'
+
+2023-10-19 22:00:52 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/submit"), STOP_ON_FAILURE): Object: 'Object Repository/reto_hp/submit' is clicked on
+
+2023-10-19 22:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RetoHp/reto_hp" time="10.302" classname="Test Cases/RetoHp/reto_hp" status="PASSED">
+         <system-out><![CDATA[2023-10-19 22:00:52 - [TEST_CASE][PASSED] - Test Cases/RetoHp/reto_hp: Test Cases/RetoHp/reto_hp
+
+2023-10-19 22:00:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-10-19 22:00:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-19 22:00:56 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/edit_0")): Object: 'Object Repository/reto_hp/edit_0' is clicked on
+
+2023-10-19 22:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/edit_0' is clicked on
+
+2023-10-19 22:00:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-10-19 22:00:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-10-19 22:00:59 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/first_name"), "mos "): Text 'mos ' is set on object 'Object Repository/reto_hp/first_name'
+
+2023-10-19 22:01:00 - [MESSAGE][PASSED] - Text 'mos ' is set on object 'Object Repository/reto_hp/first_name'
+
+2023-10-19 22:01:00 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/last_name"), "ebriiios"): Text 'ebriiios' is set on object 'Object Repository/reto_hp/last_name'
+
+2023-10-19 22:01:00 - [MESSAGE][PASSED] - Text 'ebriiios' is set on object 'Object Repository/reto_hp/last_name'
+
+2023-10-19 22:01:00 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/email"), "estamosebrios@gmail.com"): Text 'estamosebrios@gmail.com' is set on object 'Object Repository/reto_hp/email'
+
+2023-10-19 22:01:01 - [MESSAGE][PASSED] - Text 'estamosebrios@gmail.com' is set on object 'Object Repository/reto_hp/email'
+
+2023-10-19 22:01:01 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/age"), "40"): Text '40' is set on object 'Object Repository/reto_hp/age'
+
+2023-10-19 22:01:01 - [MESSAGE][PASSED] - Text '40' is set on object 'Object Repository/reto_hp/age'
+
+2023-10-19 22:01:01 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/salary"), "500"): Text '500' is set on object 'Object Repository/reto_hp/salary'
+
+2023-10-19 22:01:02 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/reto_hp/salary'
+
+2023-10-19 22:01:02 - [TEST_STEP][PASSED] - setText(findTestObject("reto_hp/deparment"), "guaros"): Text 'guaros' is set on object 'Object Repository/reto_hp/deparment'
+
+2023-10-19 22:01:02 - [MESSAGE][PASSED] - Text 'guaros' is set on object 'Object Repository/reto_hp/deparment'
+
+2023-10-19 22:01:02 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/submit_2"), STOP_ON_FAILURE): Object: 'Object Repository/reto_hp/submit_2' is clicked on
+
+2023-10-19 22:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/submit_2' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RetoHp/borrall" time="14.019" classname="Test Cases/RetoHp/borrall" status="PASSED">
+         <system-out><![CDATA[2023-10-19 22:01:03 - [TEST_CASE][PASSED] - Test Cases/RetoHp/borrall: Test Cases/RetoHp/borrall
+
+2023-10-19 22:01:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("reto_hp/down"), 0): Scroll to object 'Object Repository/reto_hp/down' successfully
+
+2023-10-19 22:01:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-19 22:01:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/reto_hp/down' successfully
+
+2023-10-19 22:01:03 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-10-19 22:01:09 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-10-19 22:01:09 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/borrar_1")): Object: 'Object Repository/reto_hp/borrar_1' is clicked on
+
+2023-10-19 22:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/borrar_1' is clicked on
+
+2023-10-19 22:01:10 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/borrar_2")): Object: 'Object Repository/reto_hp/borrar_2' is clicked on
+
+2023-10-19 22:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/borrar_2' is clicked on
+
+2023-10-19 22:01:10 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/borrar_3")): Object: 'Object Repository/reto_hp/borrar_3' is clicked on
+
+2023-10-19 22:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/borrar_3' is clicked on
+
+2023-10-19 22:01:11 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/borrar_4")): Object: 'Object Repository/reto_hp/borrar_4' is clicked on
+
+2023-10-19 22:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/borrar_4' is clicked on
+
+2023-10-19 22:01:11 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/borrar_5")): Object: 'Object Repository/reto_hp/borrar_5' is clicked on
+
+2023-10-19 22:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/borrar_5' is clicked on
+
+2023-10-19 22:01:12 - [TEST_STEP][PASSED] - click(findTestObject("reto_hp/borrar_6")): Object: 'Object Repository/reto_hp/borrar_6' is clicked on
+
+2023-10-19 22:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/reto_hp/borrar_6' is clicked on
+
+2023-10-19 22:01:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("reto_hp/add"), 0): Scroll to object 'Object Repository/reto_hp/add' successfully
+
+2023-10-19 22:01:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-19 22:01:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/reto_hp/add' successfully
+
+2023-10-19 22:01:13 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-10-19 22:01:17 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-19 22:00:11 - [TEST_SUITE][PASSED] - completo_hp: Test Cases/RetoHp/borrall]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

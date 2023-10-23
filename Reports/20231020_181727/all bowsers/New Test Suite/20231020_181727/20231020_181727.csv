@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 118.0.0.0,,,2023-10-20 18:17:29,2023-10-20 18:17:35,5.932s,FAILED
+,,,,,,,
+Test Cases/AUTOMATION IMAGES MOUSE/AUTOMATION MOUSE,Chrome 118.0.0.0,,,2023-10-20 18:17:34,2023-10-20 18:17:35,1.103s,FAILED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-20 18:17:34,2023-10-20 18:17:35,1.074s,PASSED
+"navigateToUrl("""")",Chrome 118.0.0.0,,,2023-10-20 18:17:35,2023-10-20 18:17:35,0.013s,FAILED

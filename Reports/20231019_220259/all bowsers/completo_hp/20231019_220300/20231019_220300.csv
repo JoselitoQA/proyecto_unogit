@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+completo_hp,,,,2023-10-19 22:03:03,2023-10-19 22:03:11,8.093s,FAILED
+,,,,,,,
+Test Cases/RetoHp/borrar_hp,,,,2023-10-19 22:03:03,2023-10-19 22:03:07,3.501s,FAILED
+"openBrowser("""")",,,,2023-10-19 22:03:04,2023-10-19 22:03:07,3.189s,FAILED
+,,,,,,,
+Test Cases/new add,,,,2023-10-19 22:03:07,2023-10-19 22:03:07,0.233s,FAILED
+"click(findTestObject(""Object Repository/new add/Page_DEMOQA/button_Add""))",,,,2023-10-19 22:03:07,2023-10-19 22:03:07,0.094s,FAILED
+,,,,,,,
+Test Cases/new add,,,,2023-10-19 22:03:07,2023-10-19 22:03:07,0.080s,FAILED
+"click(findTestObject(""Object Repository/new add/Page_DEMOQA/button_Add""))",,,,2023-10-19 22:03:07,2023-10-19 22:03:07,0.058s,FAILED
+,,,,,,,
+Test Cases/new add,,,,2023-10-19 22:03:08,2023-10-19 22:03:08,0.076s,FAILED
+"click(findTestObject(""Object Repository/new add/Page_DEMOQA/button_Add""))",,,,2023-10-19 22:03:08,2023-10-19 22:03:08,0.063s,FAILED
+,,,,,,,
+Test Cases/new add,,,,2023-10-19 22:03:08,2023-10-19 22:03:08,0.052s,FAILED
+"click(findTestObject(""Object Repository/new add/Page_DEMOQA/button_Add""))",,,,2023-10-19 22:03:08,2023-10-19 22:03:08,0.038s,FAILED
+,,,,,,,
+Test Cases/new add,,,,2023-10-19 22:03:08,2023-10-19 22:03:08,0.046s,FAILED
+"click(findTestObject(""Object Repository/new add/Page_DEMOQA/button_Add""))",,,,2023-10-19 22:03:08,2023-10-19 22:03:08,0.036s,FAILED
+,,,,,,,
+Test Cases/new add,,,,2023-10-19 22:03:08,2023-10-19 22:03:08,0.047s,FAILED
+"click(findTestObject(""Object Repository/new add/Page_DEMOQA/button_Add""))",,,,2023-10-19 22:03:08,2023-10-19 22:03:08,0.036s,FAILED
+,,,,,,,
+Test Cases/RetoHp/reto_hp,,,,2023-10-19 22:03:08,2023-10-19 22:03:11,3.260s,FAILED
+delay(3),,,,2023-10-19 22:03:08,2023-10-19 22:03:11,3.079s,PASSED
+"click(findTestObject(""reto_hp/edit_0""))",,,,2023-10-19 22:03:11,2023-10-19 22:03:11,0.044s,FAILED
+,,,,,,,
+Test Cases/RetoHp/borrall,,,,2023-10-19 22:03:11,2023-10-19 22:03:11,0.166s,FAILED
+"scrollToElement(findTestObject(""reto_hp/down""), 0)",,,,2023-10-19 22:03:11,2023-10-19 22:03:11,0.040s,FAILED

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+completo_hp,,,,2023-10-20 18:46:19,2023-10-20 18:46:27,7.979s,FAILED
+,,,,,,,
+Test Cases/RetoHp/borrar_hp,,,,2023-10-20 18:46:20,2023-10-20 18:46:24,3.956s,FAILED
+"openBrowser("""")",,,,2023-10-20 18:46:20,2023-10-20 18:46:24,3.659s,FAILED
+,,,,,,,
+Test Cases/RetoHp/reto_hp,,,,2023-10-20 18:46:24,2023-10-20 18:46:27,3.494s,FAILED
+delay(3),,,,2023-10-20 18:46:24,2023-10-20 18:46:27,3.091s,PASSED
+"click(findTestObject(""reto_hp/edit_0""))",,,,2023-10-20 18:46:27,2023-10-20 18:46:27,0.144s,FAILED
+,,,,,,,
+Test Cases/RetoHp/borrall,,,,2023-10-20 18:46:27,2023-10-20 18:46:27,0.203s,FAILED
+"scrollToElement(findTestObject(""reto_hp/down""), 4)",,,,2023-10-20 18:46:27,2023-10-20 18:46:27,0.047s,FAILED

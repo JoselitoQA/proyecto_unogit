@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.scrollToElement(findTestObject('reto_hp/down'), 0)
+WebUI.scrollToElement(findTestObject('reto_hp/down'), 4)
 
 WebUI.delay(6)
 
@@ -33,7 +33,9 @@ WebUI.click(findTestObject('reto_hp/borrar_5'))
 
 WebUI.click(findTestObject('reto_hp/borrar_6'))
 
-WebUI.scrollToElement(findTestObject('reto_hp/add'), 0)
+WebUI.scrollToElement(findTestObject('reto_hp/add'), 4)
 
 WebUI.delay(4)
+
+WebUI.closeBrowser()
 
